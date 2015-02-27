@@ -14,11 +14,20 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   margin: 20px 0;
 }
 
-
-.player {
-  margin-top: 50px;
-}
 .overlay {
   color: #fff;
   padding: 100px 0;
+}
+
+
+
+
+// music video styles
+.music-video {
+	margin: 80px 0 100px 0;
+
+	.video-caption {
+		background: rgba(100,100,100,.3);
+		border-radius: 25px;
+	}
 }

@@ -11,13 +11,14 @@
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
+
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/darkly/bootstrap.min.css">
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -30,12 +31,22 @@
 
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="#">Full Width</a></li>
+          <li><a href="#">Cover Window</a></li>
         </ul>
-        <h3 class="text-muted">videobg</h3>
+        <h3 class="text-muted"><span class="glyphicon glyphicon-facetime-video"></span> BG Video</h3>
       </div>
 
 
+    </div>
+
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Some of My Favorite Music Videos</h1>
+            <p class="lead">A flimsy pretext to mess with <a href="https://github.com/pupunzi/jquery.mb.YTPlayer">jquery.mb.ytplayer</a></p>
+        </div>
     </div>
 
 
@@ -46,29 +57,50 @@
 
 
 
-
-
-
-
-        <!--WORKS / PORTFOLIO SECTION END  -->
-        <div id="video-sec" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=MXIzyquw-kc',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}">
-            <!-- change https://www.youtube.com/watch?v=Ycv5fNd4AeM to your youtube url-->
-            <div class="overlay">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-md-12">
-                            <h1>ARCHITECTURE IN HELSINKI</h1>
-                            <h4>Do the Whirlwind</h4>
-                            <h4><a href="https://www.youtube.com/watch?v=MXIzyquw-kc"></a>youtube.com/watch?v=MXIzyquw-kc</h4>
-                        </div>
+    <div id="video-sec" class="player music-video" data-property="{videoURL:'https://www.youtube.com/watch?v=MXIzyquw-kc',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 video-caption text-center">
+                        <h1>Architecture in Helsinki</h1>
+                        <h4>Do the Whirlwind</h4>
+                        <h4><a href="https://www.youtube.com/watch?v=MXIzyquw-kc">youtube.com/watch?v=MXIzyquw-kc</a></h4>
                     </div>
                 </div>
             </div>
-
         </div>
+    </div>
 
 
 
+    <div id="video-sec2" class="player2 music-video" data-property="{videoURL:'https://www.youtube.com/watch?v=0S43IwBF0uM',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 video-caption text-center">
+                        <h1>Chemical Brothers</h1>
+                        <h4>Star Guitar</h4>
+                        <h4><a href="https://www.youtube.com/watch?v=0S43IwBF0uM">https://www.youtube.com/watch?v=0S43IwBF0uM</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="video-sec3" class="player3 music-video" data-property="{videoURL:'https://www.youtube.com/watch?v=12zJw9varYE',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 video-caption text-center">
+                        <h1>OK Go</h1>
+                        <h4>WTF?</h4>
+                        <h4><a href="https://www.youtube.com/watch?v=12zJw9varYE">https://www.youtube.com/watch?v=12zJw9varYE</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
